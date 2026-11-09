@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MarketingGuard" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#E53935</item>
+        <item name="android:statusBarColor">#1E1E1E</item>
+    </style>
+</resources>

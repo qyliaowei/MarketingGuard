@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">营销雷达</string>
+    <string name="service_label">营销雷达（内容过滤）</string>
+    <string name="service_summary">检测屏幕上的营销话术并弹出警示</string>
+    <string name="service_description">本服务读取当前屏幕的文本内容（标题、字幕、正文），必要时截屏做本地文字识别，在本地使用规则引擎检测营销/收割类话术，命中后在屏幕顶部显示警示条。所有分析均在手机本地完成，不上传任何内容。</string>
+    <string name="open_accessibility_settings">开启无障碍服务</string>
+    <string name="service_status_on">服务运行中 ✔</string>
+    <string name="service_status_off">服务未开启 ✘</string>
+    <string name="overlay_switch">屏幕警示条</string>
+    <string name="ocr_switch">OCR 补强（无字幕视频）</string>
+    <string name="ocr_note">节点文本不足时截屏识别屏幕文字，需 Android 11+；识别全程离线，不解码、不上传</string>
+    <string name="threshold_label">警报阈值</string>
+    <string name="test_button">用示例文案测试引擎</string>
+    <string name="btn_import_rule">导入本地规则库（JSON 文件）</string>
+    <string name="btn_reset_rules">恢复内置规则</string>
+    <string name="btn_export_samples">导出命中样本（给 AI 分析）</string>
+    <string name="sub_url_label">规则订阅地址（远程更新）</string>
+    <string name="sub_url_hint">https://raw.githubusercontent.com/你的仓库/main/marketing_filter_rules.json</string>
+    <string name="btn_check_update">检查更新</string>
+    <string name="privacy_note">隐私说明：无障碍服务仅用于读取屏幕文本做本地规则匹配；OCR 识别在手机本地完成；网络权限只用于下载规则订阅文件。屏幕内容不会保存、不会上传。</string>
+</resources>

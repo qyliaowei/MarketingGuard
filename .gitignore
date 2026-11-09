@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+captures/
+
+# IDE
+.idea/
+.DS_Store
+*.hprof
+
+# 签名与密钥（切勿提交）
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# 本地规则与样本（含个人浏览记录，绝不能提交）
+marketing_filter_rules_remote.json
+captured_samples.txt

@@ -1,0 +1,43 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
+android {
+    namespace = "com.example.marketingguard"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.example.marketingguard"
+        minSdk = 24
+        targetSdk = 34
+        versionCode = 2
+        versionName = "1.2"
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    implementation("androidx.core:core-ktx:1.13.1")
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation("androidx.preference:preference-ktx:1.2.1")
+    // 本地离线中文文字识别（模型随 APK 打包，无需联网）
+    implementation("com.google.mlkit:text-recognition-chinese:16.0.0")
+}
