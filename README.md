@@ -1,5 +1,11 @@
 # 营销雷达 MarketingGuard
 
+[![Build APK](https://github.com/qyliaowei/MarketingGuard/actions/workflows/build.yml/badge.svg)](https://github.com/qyliaowei/MarketingGuard/actions/workflows/build.yml)
+[![Latest Release](https://img.shields.io/github/v/release/qyliaowei/MarketingGuard)](https://github.com/qyliaowei/MarketingGuard/releases/latest)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+> **直接下载 APK**：[Releases](https://github.com/qyliaowei/MarketingGuard/releases/latest) → `MarketingGuard-v1.2-debug.apk`（约 45 MB，debug 签名，需允许安装未知来源应用）
+
 基于 Android 无障碍服务的**营销内容实时过滤/标记工具**。浏览任意 App（抖音、小红书、微信文章、短视频等）时，自动读取屏幕文本（必要时截屏 OCR），用《营销文案特征数据库》规则引擎记分，命中后在屏幕顶部弹出彩色警示条。
 
 > 规则库：[`app/src/main/assets/marketing_filter_rules.json`](app/src/main/assets/marketing_filter_rules.json)
